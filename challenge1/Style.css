@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(27, 1, 50);
+}
+
+.header {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Fuggles", cursive;
+  font-size: 250%;
+  padding-top: 30px;
+}

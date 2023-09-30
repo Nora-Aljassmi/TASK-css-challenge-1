@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+body {
+  background-image: url(../assets/pokemon-bg.jpg);
+}
+
+.pika {
+  border-radius: 50%;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 27%;
+  border-radius: 10%;
+  padding: 30px;
+  margin-top: 20%;
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: normal;
+  object-position: center;
+  /* text-align: center; */
+  /* align-items: center; */
+}

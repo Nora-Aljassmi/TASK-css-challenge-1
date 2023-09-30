@@ -1,15 +1,36 @@
 /* Add your code in each class */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
+  background-color: rgb(37, 15, 57);
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .movie-card {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  position: relative;
 }
 .movie-image {
+  width: 250px;
+  position: absolute;
 }
+
 .movie-details-container {
 }
 .descriptions {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: aliceblue;
 }
 
 /*A gift from us!*/
@@ -28,4 +49,7 @@ body {
   );
 }
 .movie-title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
